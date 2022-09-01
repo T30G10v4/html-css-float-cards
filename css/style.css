@@ -88,5 +88,12 @@ html {
 
 }
 
+.col img {
+
+  float: left;
+  width: 10rem;
+
+}
+
 
 
