@@ -51,6 +51,8 @@ html {
 
 }
 
+
+/*Title*/
 .title * {
 
   text-align: center;
@@ -68,6 +70,21 @@ html {
 .title p {
 
   font-size: 2.4rem;
+
+}
+
+/*ROW*/
+.row {
+
+
+
+}
+
+.col {
+
+  width: calc(100% / 3);
+  border: 1px solid black;
+  float:left;
 
 }
 
