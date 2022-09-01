@@ -1,3 +1,13 @@
+/*COLOR PALETTE
+
+#e53170
+#0f0e17 
+
+*/
+
+
+
+
 /*RESET*/
 * {
 
@@ -11,6 +21,8 @@
 html {
 
   font-size: 62.5%; /*Per avere 10px in proporzione al font base (16px : 100% = 10px : x%)*/
+  font-family: 'Fredoka', sans-serif;
+  
 
 }
 
@@ -24,8 +36,40 @@ html {
 }
 
 /*TEST RULE*/
-p {
+/* p {
 
   color: red;
 
+} */
+
+
+/* COMMON */
+.container {
+
+  width: 70%;
+  margin: 0 auto;
+
 }
+
+.title * {
+
+  text-align: center;
+  margin: 2em 0;
+
+} 
+
+.title h1 {
+
+  font-size: 3.6rem;
+  color: #e53170;
+
+}
+
+.title p {
+
+  font-size: 2.4rem;
+
+}
+
+
+
