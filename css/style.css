@@ -77,25 +77,25 @@ html {
 /*ROW*/
 .row {
 
-
+  margin-bottom: 100px;
 
 }
 
 .col {
 
-  width: calc(100% / 3);
+  width: calc((100% - 120px) / 3) ;
   float:left;
   background-color: #0f0e17 ;
   color: white;
+  line-height: 5rem;
 
 }
 
 .col img {
 
   float: left;
-  width: 10rem;
   margin-right: 1em;
-  width: calc(100% / 2);
+  height: 16rem;
 
 }
 
@@ -119,6 +119,32 @@ html {
   color: #4dccf2;
 
 }
+
+.col:nth-of-type(3n+1)
+{
+
+  margin-right: 30px;
+
+}
+
+.col:nth-of-type(3n+2)
+{
+
+  margin: 0 30px;
+  
+
+}
+
+.col:nth-of-type(3n+3)
+{
+
+  margin-left: 30px;
+  
+}
+
+
+
+
 
 
 
