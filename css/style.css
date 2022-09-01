@@ -83,8 +83,9 @@ html {
 .col {
 
   width: calc(100% / 3);
-  border: 1px solid black;
   float:left;
+  background-color: #0f0e17 ;
+  color: white;
 
 }
 
@@ -92,6 +93,8 @@ html {
 
   float: left;
   width: 10rem;
+  margin-right: 1em;
+  width: calc(100% / 2);
 
 }
 
